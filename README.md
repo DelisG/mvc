@@ -59,9 +59,6 @@ Framework nos auxilia no desenvolvimento de aplicações web. Com ele, nós cons
 ### [AngularJS](https://docs.angularjs.org/guide)
 É um framework JavaScript que usa o padrão MVVM (Model-View-ViewModel), que é uma variação do padrão MVC.
 
-
-
-
 # Biblioteca 
 
 Uma biblioteca é uma solução de estruturas e algoritmos, um conjunto de features relacionadas. Sem dúvida ela pode conter helpers. Eventualmente uma biblioteca pode ser composta só de helpers. No contexto do MVC o helper é algo que deve ser usado para organizar a aplicação.
