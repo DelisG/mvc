@@ -1,6 +1,8 @@
 
 ![ Padrão MVC ](https://res.cloudinary.com/practicaldev/image/fetch/s--CGsBK2z7--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/7py33y398bt1zbahbp9b.png)
+
 # Arquitetura MVC
+
 ## O que significa cada sigla do MVC (MODEL-VIEW-CONTROLLER)
 O **model** seria o coração da aplicação, onde se tem a regra de negócio, entidades, aplicação do banco de dados, e tudo que pertença a aplicação em termo de regra de negócio e validação.
 
@@ -74,4 +76,3 @@ Uma biblioteca é uma solução de estruturas e algoritmos, um conjunto de featu
 https://www.youtube.com/watch?v=jyTNhT67ZyY
 
 https://raullesteves.medium.com/github-como-fazer-um-readme-md-bonit%C3%A3o-c85c8f154f8
-

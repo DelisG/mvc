@@ -1,7 +1,18 @@
-import chalk from 'chalk';
-import fs from 'fs';
+import chalk from "chalk";
+import fs from "fs";
 
-console.log(chalk.blue('Cadastro válido'));
-console.log(chalk.bgWhiteBright('Cadastro inválido'));
-console.log(chalk.magenta('muito bem rosinha'));
-console.log(chalk.rgb(15, 100, 204).inverse('Hello!'))
+function trataErro(erro) {
+    throw new Error(chalk.red(erro.code, "não há arquivo no caminho"));
+}
+
+function pegaArquivo(caminhoDoArquivo) {
+  const encoding = "utf-8";
+  fs.readFile(caminhoDoArquivo, encoding, (erro, texto) => {
+    if (erro) {
+      trataErro(erro);
+    }
+    console.log(chalk.blue(texto));
+  });
+}
+
+pegaArquivo(".biblioteca/texto");
