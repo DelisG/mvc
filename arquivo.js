@@ -15,4 +15,4 @@ function pegaArquivo(caminhoDoArquivo) {
   });
 }
 
-pegaArquivo(".biblioteca/texto");
+pegaArquivo("./biblioteca/texto.md");
