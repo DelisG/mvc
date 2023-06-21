@@ -73,3 +73,9 @@ Uma biblioteca é uma solução de estruturas e algoritmos, um conjunto de featu
 https://www.youtube.com/watch?v=jyTNhT67ZyY
 
 https://raullesteves.medium.com/github-como-fazer-um-readme-md-bonit%C3%A3o-c85c8f154f8
+
+https://irias.com.br/blog/mvc-conceito-e-exemplo-em-node-js/
+
+https://acervolima.com/arquitetura-model-view-controller-mvc-para-aplicativos-node/
+
+https://blog.cod3r.com.br/entenda-o-padrao-de-arquitetura-mvc/
