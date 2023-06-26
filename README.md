@@ -1,6 +1,6 @@
 
-![ Padrão MVC ](https://res.cloudinary.com/practicaldev/image/fetch/s--CGsBK2z7--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/7py33y398bt1zbahbp9b.png)
 
+![](https://arquivo.devmedia.com.br/marketing/img/artigo-introducao-ao-padrao-mvc-29308.png)
 # Arquitetura MVC
 
 ## O que significa cada sigla do MVC (MODEL-VIEW-CONTROLLER)
@@ -10,18 +10,25 @@ A **view** onde temos a interface de comunicação com o usuário é responsáve
 
 A camada **controller** faz o controle do fluxo da aplicação, fazendo o intermédio de todo o fluxo a definir o que o usuário verá na tela. É a primeira camada que recebe requisição dentro do padrão MVC.
 
-
 Quando é necessário acessar o banco de dados para obter resposta.
 Fluxo com dados:
 
-![ Padrão MVC ](https://res.cloudinary.com/practicaldev/image/fetch/s--WRqP1wRZ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/s6lry3h9nlfwjftsjz73.png)
 
 ## Como funciona?
+![ Padrão MVC ](https://res.cloudinary.com/practicaldev/image/fetch/s--WRqP1wRZ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/s6lry3h9nlfwjftsjz73.png)
+
 O usuário em seu browser realiza uma requisição HTPP, que ao chegar ao controller que verifica e comunica ao model. O model realiza uma consulta ao banco de dados, retornando os dados requisitados para o mode, vale lembrar que essa parte do model é invisível ao usuário. O model retorna ao controller que tem o trabalho de renderizar a informação na view. A view retornará um evento para o controller que devolverá a resposta HTPP para o browser onde o usuário poderá visualizar o que foi requerido.
 
 Caso não seja necessário acessar dados, a requisição não precisa passar pela camada model, pois a camada model que se liga ao banco de dados.
+
 ## Fluxo sem dados:
-![ Padrão MVC ](https://res.cloudinary.com/practicaldev/image/fetch/s--Jub-QAtQ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/d26flx2yttu1idqyuf6i.png)
+![ Padrão MVC ](https://res.cloudinary.com/practicaldev/image/fetch/s--CGsBK2z7--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/7py33y398bt1zbahbp9b.png)
+
+
+Sem o banco de dados, as camadas da arquitetura MVC ainda desempenham seus papéis fundamentais. A camada do modelo gerencia os dados e a lógica de negócio, a camada da view faz a apresentação dos dados ao usuário e a camada do controlador coordena as interações do usuário e as atualizações no modelo. Embora a persistência de dados não seja abordada diretamente, a arquitetura MVC continua a oferecer benefícios na separação de preocupações, modularidade e reutilização de código.
+
+Sem considerar o fluxo de dados específico,promovendo a separação clara entre o modelo, a view e o controlador permitindo que cada componente seja desenvolvido, testado e mantido de forma independente. Melhorando a modularidade e a escalabilidade do sistema, facilitando a adição ou modificação de recursos.
+
 ## Implementação
 Isso depende da linguagem de programação que será utilizada e do contexto da aplicação. Normalmente haverá uma classe abstrata para cada um dos 3 elementos principais: Model, View e Controller. O programador desenvolve aplicações criando subclasses dessas classes abstratas onde cada aspecto do sistema vai ter seu model. Cada modelo terá 1 ou mais controladores e visões.
 
