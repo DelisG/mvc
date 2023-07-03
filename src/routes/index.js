@@ -1,10 +1,13 @@
-const express = require("express");
+import Router from 'express';
 
-const router = express.Router
 
-router.length("/", function(req,res){
+const router = Router(); //função para criação de rotas do express
+
+router.get("/", function (req, res) {
     res.status(200).send({
-        title: "Bem vindas a turma Devas do Full Stack!",version:"1.0.0"
+        title: "Hello World! Bem vindas a turma Devas do Full Stack!",
+        version: "1.0.0"
     })
 })
-module.exports = router;
+
+export default router;
