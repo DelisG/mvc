@@ -1,6 +1,6 @@
 
 
-![](https://arquivo.devmedia.com.br/marketing/img/artigo-introducao-ao-padrao-mvc-29308.png)
+![](./biblioteca/Architect%20Building%20Contractor%20Orange%20Black%20Blue%20Sleek%20Logo.png)
 # Arquitetura MVC
 
 ## O que significa cada sigla do MVC (MODEL-VIEW-CONTROLLER)
