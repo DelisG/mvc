@@ -2,7 +2,6 @@ import mongoose from 'mongoose';
 
 const apiScheema = new mongoose.Schema(
     {
-        id: { type: Number, required: true },
         nome: { type: String, required: true },
         email: { type: String, required: true }
     }
