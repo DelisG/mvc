@@ -1,7 +1,9 @@
+
 import mongoose from 'mongoose'
 
-mongoose.connect();
+mongoose.connect("mongodb+srv://admin:delis123@cluster0.q0ygpfy.mongodb.net/senac2");
 
 let db = mongoose.connection;
 
-module.exports = db;
+export default db;
+
