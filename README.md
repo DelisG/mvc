@@ -1,6 +1,6 @@
 
 
-![](./biblioteca/Architect%20Building%20Contractor%20Orange%20Black%20Blue%20Sleek%20Logo.png)
+![](./biblioteca/logo.png)
 # Arquitetura MVC
 
 ## O que significa cada sigla do MVC (MODEL-VIEW-CONTROLLER)
