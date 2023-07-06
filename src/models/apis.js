@@ -1,12 +1,10 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
 
-const apiScheema = new mongoose.Schema(
-    {
-        nome: { type: String, required: true },
-        email: { type: String, required: true }
-    }
-)
+const apiScheema = new mongoose.Schema({
+  nome: { type: String, required: true },
+  email: { type: String, required: true },
+});
 
-const apis = mongoose.model('apis', apiSchema);
+const apis = mongoose.model("apis", apiScheema);
 
 export default apis;
