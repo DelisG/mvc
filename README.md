@@ -125,11 +125,8 @@ git push origin nome-da-sua-branch
 
 Agradecemos antecipadamente por suas contribuições!
 
-## Conclusão
 
-Esta documentação técnica fornece uma visão geral do projeto MVC, suas tecnologias, arquitetura, instruções para clonagem do repositório e informações sobre como testar as APIs. Fique à vontade para explorar o código-fonte e contribuir com o desenvolvimento do projeto. Se você tiver alguma dúvida adicional, consulte a documentação do código ou entre em contato com o autor do projeto.
-
-# Arquitetura MVC
+# Resumo sobre a Arquitetura MVC
 
 ### O que significa cada sigla do MVC (MODEL-VIEW-CONTROLLER)
 
