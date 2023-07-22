@@ -168,10 +168,7 @@ git push origin nome-da-sua-branch
 
 <br>
 
-_:sparkles: Obrigada a você que chegou até aqui! Espero que as informações aqui fornecidas tenham sido úteis e que você possa aproveitar ao máximo este projeto. Se você tiver alguma dúvida, problema ou sugestão, não hesite em entrar em contato comigo._
 
-<<<<<<< HEAD
-Esta documentação técnica fornece uma visão geral do projeto MVC, suas tecnologias, arquitetura, instruções para clonagem do repositório e informações sobre como testar as APIs. Fique à vontade para explorar o código-fonte e contribuir com o desenvolvimento do projeto. Se você tiver alguma dúvida adicional, consulte a documentação do código ou entre em contato comigo pelo email ***delisgmarques@gmail.com***.
+:ribbon: Obrigada a você que chegou até aqui! Espero que as informações aqui fornecidas tenham sido úteis e que você possa aproveitar ao máximo este projeto. Se você tiver alguma dúvida adicional, consulte a documentação do código ou entre em contato comigo pelo email: ***delisgmarques@gmail.com***
 
-#### :ribbon: Obrigada a você que chegou até aqui :ribbon:
 
