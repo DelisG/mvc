@@ -166,10 +166,13 @@ git push origin nome-da-sua-branch
 
 7. Abra um pull request no repositório original, descrevendo suas alterações em detalhes.
 
-Agradecemos antecipadamente por suas contribuições!
+<br>
 
-## Conclusão
+_:sparkles: Obrigada a você que chegou até aqui! Espero que as informações aqui fornecidas tenham sido úteis e que você possa aproveitar ao máximo este projeto. Se você tiver alguma dúvida, problema ou sugestão, não hesite em entrar em contato comigo._
 
+<<<<<<< HEAD
 Esta documentação técnica fornece uma visão geral do projeto MVC, suas tecnologias, arquitetura, instruções para clonagem do repositório e informações sobre como testar as APIs. Fique à vontade para explorar o código-fonte e contribuir com o desenvolvimento do projeto. Se você tiver alguma dúvida adicional, consulte a documentação do código ou entre em contato comigo pelo email ***delisgmarques@gmail.com***.
 
 #### :pink_heart: Obrigada a você que chegou até aqui :pink_heart:
+=======
+>>>>>>> 320c7ed662240c4c754e89b14fa3676ab1aae4cb
