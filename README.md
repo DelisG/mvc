@@ -2,7 +2,7 @@
 
 [![Status do Projeto](https://img.shields.io/badge/Status-Concluido-brightgreen?color=yellow)](#)
 
-Seja bem-vindo à documentação técnica do projeto MVC! Aqui você terá acesso a informações detalhadas sobre o projeto, as tecnologias empregadas e a arquitetura utilizada. Além disso, encontrará explicações sobre o modelo de esquemas de API e os testes de rotas implementados. Também fornecemos  um breve resumo sobre a arquitetura MVC que sustenta o projeto e, por fim,instruções claras para clonar o repositório . Esperamos que esta documentação seja útil e facilite a compreensão de todos os aspectos essenciais para o desenvolvimento e manutenção deste sistema.
+Seja bem-vindo à Documentação Técnica do projeto MVC! Aqui você terá acesso a informações detalhadas sobre o projeto, as tecnologias empregadas e a arquitetura utilizada. Além disso, encontrará explicações sobre o modelo de esquemas de API e os testes de rotas implementados. Também fornecemos  um breve resumo sobre a arquitetura MVC que sustenta o projeto e, por fim,instruções claras para clonar o repositório . Esperamos que esta documentação seja útil e facilite a compreensão de todos os aspectos essenciais para o desenvolvimento e manutenção deste sistema.
 
 ## Visão Geral do Projeto
 
